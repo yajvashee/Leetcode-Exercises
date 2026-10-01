@@ -24,8 +24,8 @@ Each string does not contain leading zeros except for the zero itself.
 ## Approach
 1. Define number_a and number_b as 0. These variables will represent the decimal values of a and b respectively.
 2. Convert both a and b to their decimal values using a for loop.
-2a. For each character in a.
-2b. Multiply that character by 2^i where i is the index of my for loop. Increment number_a by that amount.
-3. Convert b to decimal value by using the same approach explained above as we did for a.
-4. Compute the sum of a and b and store it as total.
-5. Convert the denary value total to binary by using the bin function.
+3. For each character in a.
+4. Multiply that character by 2^i where i is the index of my for loop. Increment number_a by that amount.
+5. Convert b to decimal value by using the same approach explained above as we did for a.
+6. Compute the sum of a and b and store it as total.
+7. Convert the denary value total to binary by using the bin function.
